@@ -1,0 +1,21 @@
+.profile{
+    width: 20%;
+    display:flex;
+    flex-direction: row;
+    background-color: rgb(129, 240, 246,0.3);
+    position: absolute;
+    left: 79.5%;
+    top: 8%;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+.image img{
+    width: 100px;
+    padding-bottom: 5px;
+}
+.timer{
+    padding-left: 20px;
+}
+.timer p{
+    font-style: italic;
+}

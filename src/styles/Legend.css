@@ -1,0 +1,18 @@
+.legend{
+    width: 20%;
+    height:28%;
+    background-color: rgb(129, 240, 246,0.3);;
+    position: absolute;
+    border-radius: 5px;
+    border: 2px solid black;
+    left: 79.5%;
+    top:65%
+}
+.totalquestions{
+    background-color: #5BC0F8;
+    color: black;
+    padding: 5px 32px;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+}

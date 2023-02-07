@@ -1,0 +1,26 @@
+.pallete{
+    width: 20%;
+    height:38%;
+    background-color: rgb(129, 240, 246,0.3);;
+    position: absolute;
+    border-radius: 5px;
+    border: 2px solid black;
+    left: 79.5%;
+    top:25%
+}
+.heading{
+    background-color: #5BC0F8;
+    color: white;
+    padding: 10px 32px;
+    font-size: 20px;
+}
+table{
+    width:100%;
+}
+table tr td{
+    width: 20%;
+}
+
+table tr td button{
+    width:100%
+}
