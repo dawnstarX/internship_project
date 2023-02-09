@@ -6,53 +6,30 @@ const Legend = () => {
     <div className="legend">
       <div className="heading">Legend (click to view)</div>
       <div>
-        <table>
-          <tr>
-            <td>
-              <button>Answered</button>
-            </td>
-            <td>
-              <button>Not Answered</button>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <button>Review+Answer</button>
-            </td>
-            <td>
-              <button>Review-Answer</button>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <button>Dump</button>
-            </td>
-            <td>
-              <button>No Visit</button>
-            </td>
-          </tr>
-        </table>
+        <div>
+          <button>Answered</button>
+
+          <button>Not Answered</button>
+
+          <button>Review+Answer</button>
+
+          <button>Review-Answer</button>
+
+          <button>Dump</button>
+        </div>
+
+        <button>No Visit</button>
       </div>
       <div className="totalquestions">All Question</div>
+      <div>
+        <button>Profile</button>
 
-      <table className="lastTable">
-        <tr>
-          <td>
-            <button>Profile</button>
-          </td>
-          <td>
-            <button>Instr</button>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <button>Questions</button>
-          </td>
-          <td>
-            <button>Submit</button>
-          </td>
-        </tr>
-      </table>
+        <button>Instr</button>
+
+        <button>Questions</button>
+
+        <button>Submit</button>
+      </div>
     </div>
   );
 };

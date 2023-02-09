@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/Profile.css";
+import Timer from "./Timer";
 
 const Profile = () => {
   return (
@@ -10,7 +11,8 @@ const Profile = () => {
       <div className="timer">
         <p>Time Left:</p>
         <br />
-        <br />
+        <Timer />
+
         <br />
         <p>Abhinav Gaur</p>
       </div>

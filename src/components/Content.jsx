@@ -1,15 +1,16 @@
 import React, { useContext } from "react";
 import { ques } from "../Context";
+import Form from "./Form";
 import "../styles/Content.css";
 
 const Content = () => {
-  const { cur, status } = useContext(ques);
+  const { cur } = useContext(ques);
   const [CUR, setCur] = cur;
-  const [STATUS, setStatus] = status;
 
   return (
-    <div>
-      question no {CUR} has status {STATUS[CUR]}
+    <div className="content-box">
+      <div className="description">Question{CUR}</div>
+      <Form />
     </div>
   );
 };
