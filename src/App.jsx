@@ -6,7 +6,6 @@ import Pallete from "./components/Pallete";
 import Legend from "./components/Legend";
 import Content from "./components/Content";
 import StatusButton from "./components/StatusButton";
-import Answered from "./components/Answered";
 
 function App() {
   return (
@@ -18,7 +17,6 @@ function App() {
       <Legend />
       <Content />
       <StatusButton />
-      <Answered />
     </div>
   );
 }

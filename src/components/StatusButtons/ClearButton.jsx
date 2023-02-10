@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { ques } from "../Context";
+import { ques } from "../../Context";
 
 const ClearButton = () => {
   const { cur, option } = useContext(ques);

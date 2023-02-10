@@ -1,15 +1,24 @@
 import { useContext } from "react";
-import { ques } from "../Context";
+import { ques } from "../../Context";
 
-const DumpButton = () => {
-  const { cur, status } = useContext(ques);
+const ReviewButton = () => {
+  const { cur, status, option } = useContext(ques);
   const [CUR, setCur] = cur;
   const [STATUS, setStatus] = status;
+  const [OPTION, setOption] = option;
+
+  const calculateStatus = function () {
+    if (OPTION[CUR]) {
+      return 3;
+    } else {
+      return 4;
+    }
+  };
 
   const statusHandler = function () {
     const newSTATUS = STATUS.map((elem, i) => {
       if (i === CUR) {
-        return 5;
+        return calculateStatus();
       } else {
         return elem;
       }
@@ -32,9 +41,9 @@ const DumpButton = () => {
         NextHandler();
       }}
     >
-      DUMP
+      REVIEW
     </button>
   );
 };
 
-export default DumpButton;
+export default ReviewButton;

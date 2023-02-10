@@ -1,7 +1,7 @@
 import { useContext } from "react";
-import { ques } from "../Context";
+import { ques } from "../../Context";
 
-const PreviousButton = () => {
+const NextButton = () => {
   const { cur, status, option } = useContext(ques);
   const [CUR, setCur] = cur;
   const [STATUS, setStatus] = status;
@@ -27,13 +27,14 @@ const PreviousButton = () => {
   };
 
   const NextHandler = function () {
-    if (CUR === 1) {
+    if (CUR === 10) {
       return;
     } else {
-      const newCUR = CUR - 1;
+      const newCUR = CUR + 1;
       setCur(newCUR);
     }
   };
+
   return (
     <button
       className="btn"
@@ -42,9 +43,9 @@ const PreviousButton = () => {
         NextHandler();
       }}
     >
-      PREVIOUS
+      NEXT
     </button>
   );
 };
 
-export default PreviousButton;
+export default NextButton;

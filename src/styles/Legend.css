@@ -16,3 +16,16 @@
     text-align: center;
     margin-bottom: 10px;
 }
+
+.modalButtons{
+    width: 40%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    background-color: #5BC0F8; 
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5%;
+}
+.modalButtons:hover {background-color: #0081C9}
+.modalButtons:active {background-color: #0081C9;}

@@ -13,8 +13,9 @@ const Singlebutton = ({ buttonNumber }) => {
   const color = colorArray[STATUS[buttonNumber.value]];
   const buttonstyle = {
     backgroundColor: color,
-    padding: "2px 20PX",
+    padding: "2px 20px",
     margin: "3px",
+    width: "18%",
   };
 
   return (

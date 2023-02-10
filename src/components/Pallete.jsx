@@ -4,18 +4,20 @@ import Singlebutton from "./Singlebutton";
 import "../styles/Pallete.css";
 
 const Pallete = () => {
-  const buttonArray=[1,2,3,4,5,6,7,8,9,10];
-  
+  const buttonArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
   return (
     <div className="pallete">
       <div className="heading">Question Pallete</div>
-      <div>
-       {
-        buttonArray.map((buttonValue)=>{
-            return <Singlebutton key={buttonValue} buttonNumber={{value:buttonValue}}  />
-        })
-       }
+      <div className="buttonGroup">
+        {buttonArray.map((buttonValue) => {
+          return (
+            <Singlebutton
+              key={buttonValue}
+              buttonNumber={{ value: buttonValue }}
+            />
+          );
+        })}
       </div>
     </div>
   );
