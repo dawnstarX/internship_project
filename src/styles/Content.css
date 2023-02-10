@@ -1,6 +1,6 @@
 .content-box{
     width:75%;
-    height: 570px;
+    height: 564px;
     margin-top:10px;
     margin-left: 10px;
     border-bottom: black;
@@ -13,6 +13,13 @@
     color: white;
     font-size: large;
     text-align: center;
+    display: flex;
+    padding: 0 2%;
+}
     
-    
+
+
+.description p{
+
+    margin-right: auto;
 }

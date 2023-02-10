@@ -6,6 +6,7 @@ import Pallete from "./components/Pallete";
 import Legend from "./components/Legend";
 import Content from "./components/Content";
 import StatusButton from "./components/StatusButton";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Legend />
       <Content />
       <StatusButton />
+      <Footer />
     </div>
   );
 }

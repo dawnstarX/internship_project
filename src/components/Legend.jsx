@@ -22,7 +22,7 @@ const Legend = () => {
     return STATUS.reduce((total, x) => total + (x === num), 0);
   };
 
-  const colorArray = ["green", "red", "purple", "yellow", "grey", "white"];
+  const colorArray = ["green", "red", "#A020F0", "yellow", "grey", "white"];
   const buttonstyle = {
     border: "none",
     margin: "3px",

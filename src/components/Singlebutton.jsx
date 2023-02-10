@@ -9,7 +9,7 @@ const Singlebutton = ({ buttonNumber }) => {
   const questionHandler = function (e) {
     setCur(+e.target.value);
   };
-  const colorArray = ["white", "green", "red", "purple", "yellow", "grey"];
+  const colorArray = ["white", "green", "red", "#A020F0", "yellow", "grey"];
   const color = colorArray[STATUS[buttonNumber.value]];
   const buttonstyle = {
     backgroundColor: color,
