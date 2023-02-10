@@ -4,9 +4,9 @@ import { ques } from "../Context";
 import questions from "../questions.js";
 
 const Form = () => {
-  const { cur, status, option } = useContext(ques);
-  const [CUR, setCur] = cur;
-  const [STATUS, setStatus] = status;
+  const { cur, option } = useContext(ques);
+  const [CUR] = cur;
+
   const [OPTION, setOption] = option;
 
   const optionArray = [1, 2, 3, 4];

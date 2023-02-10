@@ -5,7 +5,7 @@ import "../styles/Legend.css";
 
 const Legend = () => {
   const { status } = useContext(ques);
-  const [STATUS, setStatus] = status;
+  const [STATUS] = status;
 
   const buttonArray1 = [
     "Answered",

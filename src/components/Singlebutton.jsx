@@ -3,8 +3,8 @@ import { ques } from "../Context";
 
 const Singlebutton = ({ buttonNumber }) => {
   const { cur, status } = useContext(ques);
-  const [CUR, setCur] = cur;
-  const [STATUS, setStatus] = status;
+  const [setCur] = cur;
+  const [STATUS] = status;
 
   const questionHandler = function (e) {
     setCur(+e.target.value);
